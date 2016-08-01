@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html>
 <head>
 	<title>P1 Design</title>
@@ -77,30 +77,44 @@
 			    <span class="sr-only">Next</span>
 			</a>
 		</div>
-		<script>
-			$('.carousel').carousel({
-					interval: 4000
-			})
-		</script>
-    	
-    </div>
-    <!-- Container de Grid (Bootstrap Responsive Grid) -->
 	<div class="container">
 		<div class="row">
-			<div class="col-md-12 trabalhos">
-					<h1>trabalhos</h1>
-				</div>
-			<div class="col-md-12 trabalhos">
-					<ul id="menu-trabalhos">
-					<li class="parq-menu"><a href="#">paineis arquitetônicos</a></li>
-					<li class="pdec-menu"><a href="#">paineis decorativos</a></li>
-					<li class="espdec-menu"><a href="#">espelhos decorativos</a></li>
-					<li class="pcnc-menu"><a href="#">placas de madeira</a></li>
-					</ul>
+			<div class="col-md-12">
+				<div class="accordion">
+				  <ul>
+				    <li>
+				      <div> <a href="#">
+				        <p>PAINÉIS ARQUITETÔNICOS</p>
+				        </a> </div>
+				    </li>
+				    <li>
+				    	<div>
+					    	<a href="#">
+					        <p>PAINÉIS DECORATIVOS</p></a>
+				    	</div>
+				    </li>
+				    <li>
+				    	<div> 
+				      		<a href="#">
+				        	<p>ESPELHOS DECORATIVOS</p></a> 
+				       	</div>
+				    </li>
+				    <li>
+					    <div> <a href="#">
+					        <p>PLACAS EM CNC</p>
+					        </a> 
+					    </div>
+				    </li>
+				  </ul>
+			</div>
+
 			</div>
 		</div>
 	</div>
-			
-
+	<script>
+			$('.carousel').carousel({
+					interval: 4000
+			})
+	</script>	
 </body>
 </html>
