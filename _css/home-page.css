@@ -107,7 +107,11 @@ width: 100%;
 
 .accordion {
 	width: 100%;
+<<<<<<< HEAD
 	height: 250px;
+=======
+	height: 500px;
+>>>>>>> c880d5287527dd7cd34124b3ce92d203ef7759f4
 	overflow: hidden;
 	margin: 50px auto;
 	box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
@@ -116,6 +120,10 @@ width: 100%;
 }
 
 .accordion ul {
+<<<<<<< HEAD
+=======
+	height: 100%;
+>>>>>>> c880d5287527dd7cd34124b3ce92d203ef7759f4
 	width: 100%;
 	display: table;
 	table-layout: fixed;
@@ -128,7 +136,11 @@ width: 100%;
 	vertical-align: bottom;
 	position: relative;
 	width: 25%;
+<<<<<<< HEAD
 	height: 250px;
+=======
+	height: 100%;
+>>>>>>> c880d5287527dd7cd34124b3ce92d203ef7759f4
 	background-position: 50% 50%;
 }
 
@@ -177,54 +189,111 @@ width: 100%;
 	-moz-box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
 	
 	/*Transitions to give animation effect*/
+<<<<<<< HEAD
 	transition: 0.5s;
 	-webkit-transition:  0.5s;
 	-moz-transition: 0.5s;
+=======
+	transition: 1s;
+	-webkit-transition:  1s;
+	-moz-transition: 1s;
+>>>>>>> c880d5287527dd7cd34124b3ce92d203ef7759f4
 
 
 }
 
 .accordion ul li:nth-child(1) { 
+<<<<<<< HEAD
 	background-image: url("../_imgs/_espdec/espelho-capa-resized.jpg");
+=======
+	background-image: url("../_imgs/_parq/arquitetonicos-capa.jpg");
+	background-repeat: no-repeat;
+>>>>>>> c880d5287527dd7cd34124b3ce92d203ef7759f4
 	-webkit-filter: grayscale(1); /* Old WebKit */
 	 }
 
 .accordion ul li:nth-child(2) {
+<<<<<<< HEAD
 	background-image: url("../_imgs/_parq/arquitetonicos-capa-resized.jpg"); 
+=======
+	background-image: url("../_imgs/_pdec/decorativos-capa.jpg"); 
+	background-repeat: no-repeat;
+>>>>>>> c880d5287527dd7cd34124b3ce92d203ef7759f4
 	-webkit-filter: grayscale(1); /* Old WebKit */
 }
 
 .accordion ul li:nth-child(3) { 
+<<<<<<< HEAD
 	background-image: url("../_imgs/_pdec/decorativos-capa-resized.jpg"); 
+=======
+	background-image: url("../_imgs/_espdec/espelho-capa.jpg"); 
+	background-repeat: no-repeat;
+>>>>>>> c880d5287527dd7cd34124b3ce92d203ef7759f4
 	-webkit-filter: grayscale(1); /* Old WebKit */
 }
 
 .accordion ul li:nth-child(4) { 
+<<<<<<< HEAD
 	background-image: url("../_imgs/_pcnc/placa-capa-resized.jpg");
 	-webkit-filter: grayscale(1); /* Old WebKit */
 	 }
 .accordion ul li:nth-child(1):hover { 
 	background-image: url("../_imgs/_espdec/espelho-capa-resized.jpg");
+=======
+	background-image: url("../_imgs/_pcnc/placa-capa.jpg");
+	background-repeat: no-repeat;
+	-webkit-filter: grayscale(1); /* Old WebKit */
+	 }
+.accordion ul li:nth-child(1):hover { 
+	background-image: url("../_imgs/_parq/arquitetonicos-capa.jpg");
+	background-repeat: no-repeat;
+>>>>>>> c880d5287527dd7cd34124b3ce92d203ef7759f4
 	-webkit-filter: none; /* Old WebKit */
 	 }
 
 .accordion ul li:nth-child(2):hover  {
+<<<<<<< HEAD
 	background-image: url("../_imgs/_parq/arquitetonicos-capa-resized.jpg"); 
+=======
+	background-image: url("../_imgs/_pdec/decorativos-capa.jpg"); 
+	background-repeat: no-repeat;
+>>>>>>> c880d5287527dd7cd34124b3ce92d203ef7759f4
 	-webkit-filter: none;  /* Old WebKit */
 }
 
 .accordion ul li:nth-child(3):hover  { 
+<<<<<<< HEAD
 	background-image: url("../_imgs/_pdec/decorativos-capa-resized.jpg"); 
+=======
+	background-image: url("../_imgs/_espdec/espelho-capa.jpg"); 
+	background-repeat: no-repeat;
+>>>>>>> c880d5287527dd7cd34124b3ce92d203ef7759f4
 	-webkit-filter: none;  /* Old WebKit */
 }
 
 .accordion ul li:nth-child(4):hover  { 
+<<<<<<< HEAD
 	background-image: url("../_imgs/_pcnc/placa-capa-resized.jpg");
 	-webkit-filter: none;  /* Old WebKit */
 	 }
 
 .accordion ul:hover li:hover {
 	width: 70%; }
+=======
+	background-image: url("../_imgs/_pcnc/placa-capa.jpg");
+	background-repeat: no-repeat;
+	-webkit-filter: none;  /* Old WebKit */
+	 }
+
+.accordion ul:hover li {
+	width: 20%; 
+	-webkit-filter: grayscale(1);
+}
+
+.accordion ul:hover li:hover {
+	width: 60%;
+	 }
+>>>>>>> c880d5287527dd7cd34124b3ce92d203ef7759f4
 
 .accordion ul:hover li:hover a { 
 	background: rgba(0, 0, 0, 0.4); }
