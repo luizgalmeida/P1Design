@@ -4,6 +4,7 @@
 
 body{
 	font-size: 20px;
+	font-family: 'Raleway', sans-serif;
 }
 .navegacao{
 	padding: 0;
@@ -94,11 +95,56 @@ width: 100%;
 	top: 30%;
 }
 .caption-1 h1, .caption-2 h1, .caption-3 h1{
-	font-size: 9rem;
+	font-size: 10rem;
 	font-family: 'Raleway', sans-serif;
-	letter-spacing: .3em;
+	letter-spacing: .35em;
 	text-transform: uppercase;
 }
+
 .icon-next, .icon-prev{
 	visibility: hidden;
 }
+.trabalhos ul{
+	list-style: none;
+	height: 500px;
+}
+ul#menu-trabalhos li{
+	height: 100%;
+	width: 25%;
+	float: left;
+	border: 5px solid #ffffff;
+	box-shadow: 2px 2px 2px rgba(245,245,245,.6);
+	-webkit-transition: all .5s ease-in;
+	background-repeat: no-repeat;
+
+}
+.parq-menu{
+	background: url(../_imgs/_parq/arquitetonicos-capa.jpg);
+	background-position: 0% 0%; 
+}
+.pdec-menu{
+	background: url(../_imgs/_pdec/decorativos-capa.jpg);
+}
+.espdec-menu{
+	background: url(../_imgs/_espdec/espelho-capa.jpg);
+	background-position: 50% 50%;
+}
+.pcnc-menu{
+	background: url(../_imgs/_pcnc/placa-capa.jpg);
+}
+.parq-menu:hover{
+	background-position: 60% 50%;
+}
+.pdec-menu:hover{
+	background-position: 50% 50%;
+	transform: translateX(-100%);
+}
+.espdec-menu:hover{
+	background-position: 25% 50%;
+	transform: translateX(100%);
+}
+.pcnc-menu:hover{
+	background-position: 25% 50%;
+}
+
+
