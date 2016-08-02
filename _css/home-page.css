@@ -4,6 +4,7 @@
 
 body{
 	font-size: 20px;
+	font-family: 'Raleway', sans-serif;
 }
 .navegacao{
 	padding: 0;
@@ -44,8 +45,11 @@ width: 100%;
 }
 .carousel-fade .carousel-inner .next.left,
 .carousel-fade .carousel-inner .prev.right {
-  opacity: 1;
-	transition: 2s;
+  	opacity: 1;
+	transition: 3s;
+	 -moz-transform: translateX(0%);
+	 -moz-transition:.001s;
+
 }
 .carousel-fade .carousel-control {
   z-index: 2;
@@ -103,8 +107,14 @@ width: 100%;
 	visibility: hidden;
 }
 
-
-
+.trabalhos{
+	text-align: center;
+	border-bottom: 2px solid #606060;
+}
+.trabalhos h2{
+	font-size: 5rem;
+	text-transform: uppercase;
+}
 .accordion {
 	width: 100%;
 	height: 500px;
@@ -188,7 +198,8 @@ width: 100%;
 .accordion ul li:nth-child(1) { 
 	background-image: url("../_imgs/_parq/arquitetonicos-capa.jpg");
 	background-repeat: no-repeat;
-	-webkit-filter: grayscale(1); /* Old WebKit */
+	-webkit-filter: grayscale(1);
+	 /* Old WebKit */
 	 }
 
 .accordion ul li:nth-child(2) {
@@ -209,26 +220,18 @@ width: 100%;
 	-webkit-filter: grayscale(1); /* Old WebKit */
 	 }
 .accordion ul li:nth-child(1):hover { 
-	background-image: url("../_imgs/_parq/arquitetonicos-capa.jpg");
-	background-repeat: no-repeat;
 	-webkit-filter: none; /* Old WebKit */
 	 }
 
 .accordion ul li:nth-child(2):hover  {
-	background-image: url("../_imgs/_pdec/decorativos-capa.jpg"); 
-	background-repeat: no-repeat;
 	-webkit-filter: none;  /* Old WebKit */
 }
 
 .accordion ul li:nth-child(3):hover  { 
-	background-image: url("../_imgs/_espdec/espelho-capa.jpg"); 
-	background-repeat: no-repeat;
 	-webkit-filter: none;  /* Old WebKit */
 }
 
 .accordion ul li:nth-child(4):hover  { 
-	background-image: url("../_imgs/_pcnc/placa-capa.jpg");
-	background-repeat: no-repeat;
 	-webkit-filter: none;  /* Old WebKit */
 	 }
 
@@ -248,4 +251,28 @@ width: 100%;
 	opacity: 1;
 	-webkit-transform: translateX(0);
 	transform: translateX(0);
+}
+.quem-somos{
+	-webkit-transition-all: .5s;
+}
+.quem-somos h2{
+	text-align: center;
+	font-size: 5rem;
+	text-transform: uppercase;
+	border-bottom: 2px solid #606060;
+}
+.sobre-texto p{
+	margin-top: 2%;
+	text-indent: 5%;
+	font-size: 2rem;
+}
+.sobre-foto img{
+	transition: .5s;
+	margin-top: 5%;
+	-webkit-filter:blur(1.5px);
+
+}
+.quem-somos:hover .sobre-foto img{
+	-webkit-filter: none;
+	transition: .5s;
 }
