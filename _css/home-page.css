@@ -198,42 +198,28 @@ width: 100%;
 .accordion ul li:nth-child(1) { 
 	background-image: url("../_imgs/_parq/arquitetonicos-capa.jpg");
 	background-repeat: no-repeat;
-	-webkit-filter: grayscale(1);
+
 	 /* Old WebKit */
 	 }
 
 .accordion ul li:nth-child(2) {
 	background-image: url("../_imgs/_pdec/decorativos-capa.jpg"); 
 	background-repeat: no-repeat;
-	-webkit-filter: grayscale(1); /* Old WebKit */
+
 }
 
 .accordion ul li:nth-child(3) { 
 	background-image: url("../_imgs/_espdec/espelho-capa.jpg"); 
 	background-repeat: no-repeat;
-	-webkit-filter: grayscale(1); /* Old WebKit */
+
 }
 
 .accordion ul li:nth-child(4) { 
 	background-image: url("../_imgs/_pcnc/placa-capa.jpg");
 	background-repeat: no-repeat;
-	-webkit-filter: grayscale(1); /* Old WebKit */
-	 }
-.accordion ul li:nth-child(1):hover { 
-	-webkit-filter: none; /* Old WebKit */
+
 	 }
 
-.accordion ul li:nth-child(2):hover  {
-	-webkit-filter: none;  /* Old WebKit */
-}
-
-.accordion ul li:nth-child(3):hover  { 
-	-webkit-filter: none;  /* Old WebKit */
-}
-
-.accordion ul li:nth-child(4):hover  { 
-	-webkit-filter: none;  /* Old WebKit */
-	 }
 
 .accordion ul:hover li {
 	width: 20%; 
@@ -242,6 +228,7 @@ width: 100%;
 
 .accordion ul:hover li:hover {
 	width: 60%;
+	-webkit-filter: none;
 	 }
 
 .accordion ul:hover li:hover a { 
@@ -260,19 +247,21 @@ width: 100%;
 	font-size: 5rem;
 	text-transform: uppercase;
 	border-bottom: 2px solid #606060;
+	padding-bottom: .5%;
 }
 .sobre-texto p{
 	margin-top: 2%;
+	padding: 2%;
 	text-indent: 5%;
 	font-size: 2rem;
+	background: #ffffff;
+	color: #202020;
+	font-weight: bold;
 }
 .sobre-foto img{
 	transition: .5s;
 	margin-top: 5%;
-	-webkit-filter:blur(1.5px);
-
 }
 .quem-somos:hover .sobre-foto img{
-	-webkit-filter: none;
 	transition: .5s;
 }
