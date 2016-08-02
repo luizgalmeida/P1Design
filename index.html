@@ -11,32 +11,31 @@
 	<script src="_js/jquery.min.js"></script>
 	<script src="_js/bootstrap.min.js"></script>
 	<!-- Minhas páginas -->
+	<link rel="stylesheet" type="text/css" href="_css/menu.css">
 	<link rel="icon" type="image/png" href="_imgs/logo-browser.png" />
 	<link rel="stylesheet" type="text/css" href="_css/home-page.css"/>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css"/>
 </head>
 <body>
 	<!-- Menu Responsívo -->
-	<div class="col-md-12 navegacao">
-		<nav role="navigation" class="navbar navbar-default">
-        
-            <div class="navbar-header">
-                <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">                    
-                    <span class="sr-only">Navegação Responsiva</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>                
-                </button>                
-                <a href="#" class="navbar-brand"></a>                
-            </div>
-			<div id="navbarCollapse" class="collapse navbar-collapse">
-				<ul class="nav navbar-nav">
-					<li><a class="home-class" href="index.html">Home</a></li>
-					<li><a class="sobre-class" href="sobre-nos.html">Sobre Nós</a></li>
-					<li><a class="contato-class" href="contato.html">Contato</a></li>
-				</ul>
-			</div>
-		</nav>	
-    </div>
+	<!-- Interação com o Menu -->
+	<input type="checkbox" id="bt-menu">
+	<!-- Menu lateral -->
+	<div class="menu">
+		<ul>
+			<li><a href="#">HOME</a></li>
+			<li><a href="#">GALERY</a></li>
+			<label for="bt-menu">
+				<span>X</span>
+			</label>
+		</ul>
+		
+	</div>
+	<div class="bt-bars">
+		<label class="bt-bars" for="bt-menu">
+			<i class="fa fa-bars" aria-hidden="true"></i>
+		</label>
+	</div>
     <!-- Carousel -->
     <div class="col-md-12 carousel-principal">
 		<div id="my-slider" class="carousel slide carousel-fade" data-ride="carousel" >
@@ -113,7 +112,7 @@
 			</div>
 			<div class="col-md-12 quem-somos">
 				<h2>Sobre Nós</h2>
-					<div class="col-md-8 sobre-texto hvr-sweep-to-right">
+					<div class="col-md-8 sobre-texto">
 						<p> A Painel 1 Design, empresa integrada no projeto e fabricação própria de peças de espelhos e painéis decorativos, para personalização de ambientes: salas, bares, restaurantes e etc.<br>
 						Sob encomenda, os projetos são idealizados conforme a necessidade e desejo de cada cliente, reunindo diversos designs disponíveis, fabricados sob medida, as peças completam a definição de ambiente, realçando a combinação de beleza, luzes e cores. Os painéis arquitetônicos podem ser utilizados em pergolados/pergula, coberturas de vidro, divisórias internas ou externas, espaços privados, na criação de detalhes para acabamento de portas e guarda corpos.<br>
 						A Painel 1 Design, também fabrica placas de madeira, usinadas em CNC, para entradas de hotéis, pousadas e fazendas, confeccionadas em madeira de lei, projetos sob medida.</p>
