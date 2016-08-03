@@ -231,6 +231,7 @@ width: 100%;
 }
 .quem-somos{
 	-webkit-transition-all: .5s;
+	margin-bottom: 5%;
 }
 .quem-somos h2{
 	margin-top: 5%;
@@ -245,7 +246,6 @@ width: 100%;
 	padding: 2%;
 	text-indent: 5%;
 	font-size: 2rem;
-	background: #ffffff;
 	color: #202020;
 	font-weight: bold;
 }
@@ -258,36 +258,34 @@ width: 100%;
 	-webkit-filter: blur(2px);
 }
 .contato{
-	text-align: center;
-	border-bottom: 2px solid #606060;
+	padding: 0;
+	background: #202020;
+	color: #ffffff;
+	text-align: left;
 }
-.contato h2{
-	margin-top: 5%;
-	text-align: center;
-	font-size: 5rem;
-	text-transform: uppercase;
-	border-bottom: 2px solid #606060;
-	padding-bottom: .5%;
+.contato-texto-1, .contato-texto-2,{
+	margin-top: 3%;
+	margin-bottom: 3%;
 }
-.contato p{
+.contato-texto-3{
+	margin-top: 3%;
+}
+.contato-texto-1 h3, .contato-texto-2 h3{
 	font-size: 2rem;
-	color: #202020;
-	font-weight: bold;
-}
-.contato h3{
-	margin-top:0;
-	text-align: center;
-	font-size: 2.5rem;
 	text-transform: uppercase;
 	font-weight: bold;
+}
+
+.contato-texto-1 p, .contato-texto-2 p{
+	font-size: 1.5rem;
 }
 .contato a{
 	text-decoration: none;
-	color: #808080;
+	color: #ffffff;
 	transition: 1s;
 }
 .contato a:hover{
-	color: #101010;
+	color: #e74c3c;
 	transition: 1s;
 }
 .contato ul{
