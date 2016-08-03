@@ -6,17 +6,6 @@ body{
 	font-size: 20px;
 	font-family: 'Raleway', sans-serif;
 }
-.navegacao{
-	padding: 0;
-}
-.navbar{
-	padding: 0%;
-	margin: 0%;
-	font-family: 'Poiret One', cursive;
-	font-size: 2rem;
-	background: rgba(245,245,245,1);
-
-}
 .carousel-principal{
 	padding: 0;
 }
@@ -98,7 +87,7 @@ width: 100%;
 	top: 30%;
 }
 .caption-1 h1, .caption-2 h1, .caption-3 h1{
-	font-size: 9rem;
+	font-size: 10rem;
 	font-family: 'Raleway', sans-serif;
 	letter-spacing: .3em;
 	text-transform: uppercase;
@@ -108,6 +97,7 @@ width: 100%;
 }
 
 .trabalhos{
+	margin-top: 7%;
 	text-align: center;
 	border-bottom: 2px solid #606060;
 }
@@ -243,6 +233,7 @@ width: 100%;
 	-webkit-transition-all: .5s;
 }
 .quem-somos h2{
+	margin-top: 5%;
 	text-align: center;
 	font-size: 5rem;
 	text-transform: uppercase;
@@ -264,4 +255,47 @@ width: 100%;
 }
 .quem-somos:hover .sobre-foto img{
 	transition: .5s;
+	-webkit-filter: blur(2px);
+}
+.contato{
+	text-align: center;
+	border-bottom: 2px solid #606060;
+}
+.contato h2{
+	margin-top: 5%;
+	text-align: center;
+	font-size: 5rem;
+	text-transform: uppercase;
+	border-bottom: 2px solid #606060;
+	padding-bottom: .5%;
+}
+.contato p{
+	font-size: 2rem;
+	color: #202020;
+	font-weight: bold;
+}
+.contato h3{
+	margin-top:0;
+	text-align: center;
+	font-size: 2.5rem;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.contato a{
+	text-decoration: none;
+	color: #808080;
+	transition: 1s;
+}
+.contato a:hover{
+	color: #101010;
+	transition: 1s;
+}
+.contato ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.contato ul li{
+	margin-right: 1%;
+	display: inline-block;
 }
