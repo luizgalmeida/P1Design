@@ -2,7 +2,7 @@
 	background-color: #fff;
 	position: fixed;
 	top: 20px;
-	left: 20px;
+	left: 15px;
 	font-size: 30px;
 	padding: 20px 30px;
 	transition: background-color .3s;
@@ -30,6 +30,8 @@
 	font-family: 'Raleway', sans-serif;
 }
 .menu ul{
+	margin-left: 0;
+	padding-left: 0;
 	width: 20%;
 	height: 100%;
 	background-color: #000;
@@ -37,17 +39,26 @@
 	padding-top: 80px;
 }
 .menu li{
+	margin-top: 2.5%;
+	margin-left: 2%;
+	margin-bottom: 2.5%;
 	list-style: none;
-	padding: 5px;
+	padding: 2px;
 	display: block;
-	text-align: center;
+	text-align: left;
+	transition: .5s;
+}
+.menu li:hover{
+	background: rgba(245,245,245,.5);
+	color: #000;
+	transition: .5s;
 }
 .menu a{
 	font-size: 17px;
 	color: #fff;
-	text-decoration: none;;
+	text-decoration: none;
 	display: inline-block;
-	padding: 5px;
+	padding: 2%;
 }
 .menu label{
 	position: absolute;
@@ -90,7 +101,9 @@
 #bt-menu{
 	display: none;
 	}
-
+.menu img{
+	margin-left: 5%;
+}
 @media(max-width: 500px)  {
 	header h1{
 		font-size: 30px;
