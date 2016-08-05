@@ -11,28 +11,114 @@ body{
 	font-size: 5rem;
 	margin-bottom: 3%;
 }
+.row{
+	height: 1500px;
+}
 .placas-coluna-1, .placas-coluna-2{
 	padding: 0; 
+	height: 48%;
 }
 .placas-coluna-1{
-	padding-left: 1%; 
+	padding-left: 1%;
+ 
 }
-.placas-coluna-1 img, .placas-coluna-2 img{
+[class*=pl-]{
 	width: 100%;
+	height: 39%;
 	border: 2px solid #ffffff;
 	-webkit-transition: all .5s ease-in;
 	overflow: hidden;
+	position: relative;
+	
 }
-img:hover{
-	-webkit-transform: scale(.8);
-	box-shadow: 20px 20px 20px rgba(0,0,0,.5);
+[class*=pl-]:hover{
 	-webkit-transition: all .5s ease-in;
 }
-[class*="pl-"] figcaption{
+.pl-00{
+	background-image: url(../_imgs/_pcnc/placa-capa.jpg);
+	background-size: cover;
+}
+.pl-00:hover{
+	background-position: 50% 50%;
+}
+.pl-01{
+	background-image: url(../_imgs/_pcnc/placa-1.jpg);
+	background-size: cover;
+}
+.pl-01:hover{
+	background-position: 50% 50%;
+}
+.pl-02{
+	background-image: url(../_imgs/_pcnc/placa-2.jpg);
+	background-size: cover;
+}
+.pl-02:hover{
+	background-position: 50% 50%;
+}
+.pl-03{
+	background-image: url(../_imgs/_pcnc/placa-3.jpg);
+	background-size: cover;
+}
+.pl-03:hover{
+	background-position: 50% 50%;
+}
+.pl-04{
+	background-image: url(../_imgs/_pcnc/placa-4.jpg);
+	background-size: cover;
+}
+.pl-04:hover{
+	background-position: 50% 50%;
+}
+.pl-05{
+	background-image: url(../_imgs/_pcnc/placa-5.jpg);
+	background-size: cover;
+}
+.pl-05:hover{
+	background-position: 50% 50%;
+}
+.pl-06{
+	background-image: url(../_imgs/_pcnc/placa-6.jpg);
+	background-size: cover;
+}
+.pl-06:hover{
+	background-position: 50% 50%;
+}
+.pl-07{
+	background-image: url(../_imgs/_pcnc/placa-7.jpg);
+	background-size: cover;
+}
+.pl-07:hover{
+	background-position: 50% 50%;
+}
+.pl-08{
+	background-image: url(../_imgs/_pcnc/placa-8.jpg);
+	background-size: cover;
+}
+.pl-08:hover{
+	background-position: 50% 50%;
+}
+.pl-09{
+	background-image: url(../_imgs/_pcnc/placa-9.jpg);
+	background-size: cover;
+}
+.pl-09:hover{
+	background-position: 50% 50%;
+}
+
+[class*="pl-"] h2{
+	margin: 0;
 	opacity: 0;
 	position: absolute;
+	bottom: 0px;
+	padding: 2%;
+	-webkit-transition: all .5s ease-in;
+	background: rgba(0,0,0,.5);
+	color: #ffffff;
+	width: 100%;
 	}
-
+[class*="pl-"]:hover h2{
+	opacity: 1;
+}
 .contato{
 	margin-top: 2%;
 }

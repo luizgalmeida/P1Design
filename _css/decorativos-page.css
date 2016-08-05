@@ -11,26 +11,203 @@ body{
 	font-size: 5rem;
 	margin-bottom: 3%;
 }
-.decorativos-coluna-1, .decorativos-coluna-2, .decorativos-coluna-3, .decorativos-coluna-4{
-	padding: 0;
-	height: 1550px; 
+.row{
+	height: 1500px;
+}
+.decorativos-coluna-1, .decorativos-coluna-2,.decorativos-coluna-3, .decorativos-coluna-4{
+	padding: 0; 
+	height: 48%;
 }
 .decorativos-coluna-1{
-	padding-left: 1%; 
+	padding-left: 1%;
+ 
 }
-.decorativos-coluna-1 img, .decorativos-coluna-2 img,.decorativos-coluna-3 img,.decorativos-coluna-4 img{
+[class*=decf-]{
 	width: 100%;
+	height: 39%;
 	border: 2px solid #ffffff;
 	-webkit-transition: all .5s ease-in;
 	overflow: hidden;
+	position: relative;
+	
 }
-img:hover{
-	-webkit-transform: scale(.8);
-	box-shadow: 20px 20px 20px rgba(0,0,0,.5);
+[class*=decf-]:hover{
 	-webkit-transition: all .5s ease-in;
 }
-[class*="dec-"] figcaption{
+.decf-00{
+	background-image: url(../_imgs/_pdec/decorativos-capa.jpg);
+	background-size: cover;
+}
+.decf-00:hover{
+	background-position: 50% 100%;
+}
+.decf-01{
+	background-image: url(../_imgs/_pdec/decorativos-1.jpg);
+	background-size: cover;
+}
+.decf-01:hover{
+	background-position: 50% 50%;
+}
+.decf-02{
+	background-image: url(../_imgs/_pdec/decorativos-2.jpg);
+	background-size: cover;
+}
+.decf-02:hover{
+	background-position: 50% 50%;
+}
+.decf-03{
+	background-image: url(../_imgs/_pdec/decorativos-3.jpg);
+	background-size: cover;
+}
+.decf-03:hover{
+	background-position: 50% 50%;
+}
+.decf-04{
+	background-image: url(../_imgs/_pdec/decorativos-4.jpg);
+	background-size: cover;
+}
+.decf-04:hover{
+	background-position: 50% 50%;
+}
+.decf-05{
+	background-image: url(../_imgs/_pdec/decorativos-5.jpg);
+	background-size: cover;
+}
+.decf-05:hover{
+	background-position: 50% 50%;
+}
+.decf-06{
+	background-image: url(../_imgs/_pdec/decorativos-6.jpg);
+	background-size: cover;
+}
+.decf-06:hover{
+	background-position: 50% 50%;
+}
+.decf-07{
+	background-image: url(../_imgs/_pdec/decorativos-7.jpg);
+	background-size: cover;
+}
+.decf-07:hover{
+	background-position: 50% 50%;
+}
+.decf-08{
+	background-image: url(../_imgs/_pdec/decorativos-8.jpg);
+	background-size: cover;
+}
+.decf-08:hover{
+	background-position: 50% 50%;
+}
+.decf-09{
+	background-image: url(../_imgs/_pdec/decorativos-9.jpg);
+	background-size: cover;
+}
+.decf-09:hover{
+	background-position: 50% 50%;
+}
+.decf-10{
+	background-image: url(../_imgs/_pdec/decorativos-10.jpg);
+	background-size: cover;
+}
+.decf-10:hover{
+	background-position: 50% 50%;
+}
+
+.decf-11{
+	background-image: url(../_imgs/_pdec/decorativos-11.jpg);
+	background-size: cover;
+}
+.decf-11:hover{
+	background-position: 50% 50%;
+}
+
+.decf-12{
+	background-image: url(../_imgs/_pdec/decorativos-12.jpg);
+	background-size: cover;
+}
+.decf-12:hover{
+	background-position: 50% 50%;
+}
+
+.decf-13{
+	background-image: url(../_imgs/_pdec/decorativos-13.jpg);
+	background-size: cover;
+}
+.decf-13:hover{
+	background-position: 50% 50%;
+}
+
+.decf-14{
+	background-image: url(../_imgs/_pdec/decorativos-14.jpg);
+	background-size: cover;
+}
+.decf-14:hover{
+	background-position: 50% 50%;
+}
+
+.decf-15{
+	background-image: url(../_imgs/_pdec/decorativos-15.jpg);
+	background-size: cover;
+}
+.decf-15:hover{
+	background-position: 50% 50%;
+}
+
+.decf-16{
+	background-image: url(../_imgs/_pdec/decorativos-16.jpg);
+	background-size: cover;
+}
+.decf-16:hover{
+	background-position: 50% 50%;
+}
+
+.decf-17{
+	background-image: url(../_imgs/_pdec/decorativos-17.jpg);
+	background-size: cover;
+}
+.decf-17:hover{
+	background-position: 50% 50%;
+}
+
+.decf-18{
+	background-image: url(../_imgs/_pdec/decorativos-18.jpg);
+	background-size: cover;
+}
+.decf-18:hover{
+	background-position: 50% 50%;
+}
+
+.decf-19{
+	background-image: url(../_imgs/_pdec/decorativos-19.jpg);
+	background-size: cover;
+}
+.decf-19:hover{
+	background-position: 50% 50%;
+}
+
+.decf-20{
+	background-image: url(../_imgs/_pdec/decorativos-20.jpg);
+	background-size: cover;
+}
+.decf-20:hover{
+	background-position: 50% 50%;
+}
+
+
+
+[class*="decf-"] h2{
+	margin: 0;
 	opacity: 0;
 	position: absolute;
+	bottom: 0px;
+	padding: 2%;
+	-webkit-transition: all .5s ease-in;
+	background: rgba(0,0,0,.5);
+	color: #ffffff;
+	width: 100%;
 	}
-
+[class*="decf-"]:hover h2{
+	opacity: 1;
+}
+.contato{
+	margin-top: 2%;
+}

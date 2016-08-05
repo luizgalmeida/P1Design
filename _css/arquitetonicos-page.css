@@ -11,26 +11,170 @@ body{
 	font-size: 5rem;
 	margin-bottom: 3%;
 }
-.arquitetonicos-coluna-1, .arquitetonicos-coluna-2, .arquitetonicos-coluna-3, .arquitetonicos-coluna-4{
-	padding: 0;
-	height: 1560px; 
+.row{
+	height: 1500px;
+}
+.arquitetonicos-coluna-1, .arquitetonicos-coluna-2,.arquitetonicos-coluna-3, .arquitetonicos-coluna-4{
+	padding: 0; 
+	height: 48%;
 }
 .arquitetonicos-coluna-1{
-	padding-left: 1%; 
+	padding-left: 1%;
+ 
 }
-.arquitetonicos-coluna-1 img, .arquitetonicos-coluna-2 img,.arquitetonicos-coluna-3 img,.arquitetonicos-coluna-4 img{
+[class*=arqf-]{
 	width: 100%;
+	height: 48.5%;
 	border: 2px solid #ffffff;
 	-webkit-transition: all .5s ease-in;
 	overflow: hidden;
+	position: relative;
+	
 }
-img:hover{
-	-webkit-transform: scale(.8);
-	box-shadow: 20px 20px 20px rgba(0,0,0,.5);
+[class*=arqf-]:hover{
 	-webkit-transition: all .5s ease-in;
 }
-[class*="arq-"] figcaption{
+.arqf-00{
+	background-image: url(../_imgs/_parq/arquitetonicos-capa.jpg);
+	background-size: cover;
+}
+.arqf-00:hover{
+	background-position: 50% 100%;
+}
+.arqf-01{
+	background-image: url(../_imgs/_parq/arquitetonicos-1.jpg);
+	background-size: cover;
+}
+.arqf-01:hover{
+	background-position: 50% 50%;
+}
+.arqf-02{
+	background-image: url(../_imgs/_parq/arquitetonicos-2.jpg);
+	background-size: cover;
+}
+.arqf-02:hover{
+	background-position: 50% 50%;
+}
+.arqf-03{
+	background-image: url(../_imgs/_parq/arquitetonicos-3.jpg);
+	background-size: cover;
+}
+.arqf-03:hover{
+	background-position: 50% 50%;
+}
+.arqf-04{
+	background-image: url(../_imgs/_parq/arquitetonicos-4.jpg);
+	background-size: cover;
+}
+.arqf-04:hover{
+	background-position: 50% 50%;
+}
+.arqf-05{
+	background-image: url(../_imgs/_parq/arquitetonicos-5.jpg);
+	background-size: cover;
+}
+.arqf-05:hover{
+	background-position: 50% 50%;
+}
+.arqf-06{
+	background-image: url(../_imgs/_parq/arquitetonicos-6.jpg);
+	background-size: cover;
+}
+.arqf-06:hover{
+	background-position: 50% 50%;
+}
+.arqf-07{
+	background-image: url(../_imgs/_parq/arquitetonicos-7.jpg);
+	background-size: cover;
+}
+.arqf-07:hover{
+	background-position: 50% 50%;
+}
+.arqf-08{
+	background-image: url(../_imgs/_parq/arquitetonicos-8.jpg);
+	background-size: cover;
+}
+.arqf-08:hover{
+	background-position: 50% 50%;
+}
+.arqf-09{
+	background-image: url(../_imgs/_parq/arquitetonicos-9.jpg);
+	background-size: cover;
+}
+.arqf-09:hover{
+	background-position: 50% 50%;
+}
+.arqf-10{
+	background-image: url(../_imgs/_parq/arquitetonicos-10.jpg);
+	background-size: cover;
+}
+.arqf-10:hover{
+	background-position: 50% 50%;
+}
+
+.arqf-11{
+	background-image: url(../_imgs/_parq/arquitetonicos-11.jpg);
+	background-size: cover;
+}
+.arqf-11:hover{
+	background-position: 50% 50%;
+}
+
+.arqf-12{
+	background-image: url(../_imgs/_parq/arquitetonicos-12.jpg);
+	background-size: cover;
+}
+.arqf-12:hover{
+	background-position: 50% 50%;
+}
+
+.arqf-13{
+	background-image: url(../_imgs/_parq/arquitetonicos-13.jpg);
+	background-size: cover;
+}
+.arqf-13:hover{
+	background-position: 50% 50%;
+}
+
+.arqf-14{
+	background-image: url(../_imgs/_parq/arquitetonicos-14.jpg);
+	background-size: cover;
+}
+.arqf-14:hover{
+	background-position: 50% 50%;
+}
+
+.arqf-15{
+	background-image: url(../_imgs/_parq/arquitetonicos-15.jpg);
+	background-size: cover;
+}
+.arqf-15:hover{
+	background-position: 50% 50%;
+}
+
+.arqf-16{
+	background-image: url(../_imgs/_parq/arquitetonicos-16.jpg);
+	background-size: cover;
+}
+.arqf-16:hover{
+	background-position: 50% 50%;
+}
+
+
+[class*="arqf-"] h2{
+	margin: 0;
 	opacity: 0;
 	position: absolute;
+	bottom: 0px;
+	padding: 2%;
+	-webkit-transition: all .5s ease-in;
+	background: rgba(0,0,0,.5);
+	color: #ffffff;
+	width: 100%;
 	}
-
+[class*="arqf-"]:hover h2{
+	opacity: 1;
+}
+.contato{
+	margin-top: 2%;
+}

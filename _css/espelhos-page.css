@@ -6,33 +6,132 @@ body{
 	font-size: 20px;
 	font-family: 'Raleway', sans-serif;
 }
-.espelhos-titulo h1{
+.titulo h1{
 	margin-top: 3%; 
 	font-size: 5rem;
 	margin-bottom: 3%;
 }
-.espelhos-coluna-1, .espelhos-coluna-2{
+.row{
+	height: 1500px;
+}
+.espelhos-coluna-1, .espelhos-coluna-2,.espelhos-coluna-3{
 	padding: 0; 
+	height: 48%;
 }
 .espelhos-coluna-1{
-	padding-left: 1%; 
+	padding-left: 1%;
+ 
 }
-.espelhos-coluna-1 img, .espelhos-coluna-2 img{
+[class*=esp-]{
 	width: 100%;
+	height: 50%;
 	border: 2px solid #ffffff;
 	-webkit-transition: all .5s ease-in;
 	overflow: hidden;
+	position: relative;
+	
 }
-img:hover{
-	-webkit-transform: scale(.8);
-	box-shadow: 20px 20px 20px rgba(0,0,0,.5);
+[class*=esp-]:hover{
 	-webkit-transition: all .5s ease-in;
 }
-[class*="esp-"] figcaption{
+.esp-00{
+	background-image: url(../_imgs/_espdec/espelho-capa.jpg);
+	background-size: cover;
+}
+.esp-00:hover{
+	background-position: 50% 50%;
+}
+.esp-01{
+	background-image: url(../_imgs/_espdec/espelho-1.jpg);
+	background-size: cover;
+}
+.esp-01:hover{
+	background-position: 50% 50%;
+}
+.esp-02{
+	background-image: url(../_imgs/_espdec/espelho-2.jpg);
+	background-size: cover;
+}
+.esp-02:hover{
+	background-position: 50% 50%;
+}
+.esp-03{
+	background-image: url(../_imgs/_espdec/espelho-3.jpg);
+	background-size: cover;
+}
+.esp-03:hover{
+	background-position: 50% 50%;
+}
+.esp-04{
+	background-image: url(../_imgs/_espdec/espelho-4.jpg);
+	background-size: cover;
+}
+.esp-04:hover{
+	background-position: 50% 50%;
+}
+.esp-05{
+	background-image: url(../_imgs/_espdec/espelho-5.jpg);
+	background-size: cover;
+}
+.esp-05:hover{
+	background-position: 50% 50%;
+}
+.esp-06{
+	background-image: url(../_imgs/_espdec/espelho-6.jpg);
+	background-size: cover;
+}
+.esp-06:hover{
+	background-position: 50% 50%;
+}
+.esp-07{
+	background-image: url(../_imgs/_espdec/espelho-7.jpg);
+	background-size: cover;
+}
+.esp-07:hover{
+	background-position: 50% 50%;
+}
+.esp-08{
+	background-image: url(../_imgs/_espdec/espelho-8.jpg);
+	background-size: cover;
+}
+.esp-08:hover{
+	background-position: 50% 50%;
+}
+.esp-09{
+	background-image: url(../_imgs/_espdec/espelho-9.jpg);
+	background-size: cover;
+}
+.esp-09:hover{
+	background-position: 50% 50%;
+}
+.esp-10{
+	background-image: url(../_imgs/_espdec/espelho-10.jpg);
+	background-size: cover;
+}
+.esp-10:hover{
+	background-position: 50% 50%;
+}
+.esp-11{
+	background-image: url(../_imgs/_espdec/espelho-11.jpg);
+	background-size: cover;
+}
+.esp-11:hover{
+	background-position: 50% 50%;
+}
+[class*="esp-"] h2{
+	margin: 0;
 	opacity: 0;
 	position: absolute;
+	bottom: 0px;
+	padding: 2%;
+	-webkit-transition: all .5s ease-in;
+	background: rgba(0,0,0,.5);
+	color: #ffffff;
+	width: 100%;
 	}
-
+[class*="esp-"]:hover h2{
+	opacity: 1;
+}
 .contato{
 	margin-top: 2%;
 }
