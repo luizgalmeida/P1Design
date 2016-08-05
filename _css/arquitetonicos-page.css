@@ -1,0 +1,36 @@
+@charset 'utf-8';
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+@import url('https://fonts.googleapis.com/css?family=Raleway:200');
+
+body{
+	font-size: 20px;
+	font-family: 'Raleway', sans-serif;
+}
+.arquitetonicos-titulo h1{
+	margin-top: 3%; 
+	font-size: 5rem;
+	margin-bottom: 3%;
+}
+.arquitetonicos-coluna-1, .arquitetonicos-coluna-2, .arquitetonicos-coluna-3, .arquitetonicos-coluna-4{
+	padding: 0;
+	height: 1560px; 
+}
+.arquitetonicos-coluna-1{
+	padding-left: 1%; 
+}
+.arquitetonicos-coluna-1 img, .arquitetonicos-coluna-2 img,.arquitetonicos-coluna-3 img,.arquitetonicos-coluna-4 img{
+	width: 100%;
+	border: 2px solid #ffffff;
+	-webkit-transition: all .5s ease-in;
+	overflow: hidden;
+}
+img:hover{
+	-webkit-transform: scale(.8);
+	box-shadow: 20px 20px 20px rgba(0,0,0,.5);
+	-webkit-transition: all .5s ease-in;
+}
+[class*="arq-"] figcaption{
+	opacity: 0;
+	position: absolute;
+	}
+

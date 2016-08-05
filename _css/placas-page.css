@@ -1,0 +1,38 @@
+@charset 'utf-8';
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+@import url('https://fonts.googleapis.com/css?family=Raleway:200');
+
+body{
+	font-size: 20px;
+	font-family: 'Raleway', sans-serif;
+}
+.placas-titulo h1{
+	margin-top: 3%; 
+	font-size: 5rem;
+	margin-bottom: 3%;
+}
+.placas-coluna-1, .placas-coluna-2{
+	padding: 0; 
+}
+.placas-coluna-1{
+	padding-left: 1%; 
+}
+.placas-coluna-1 img, .placas-coluna-2 img{
+	width: 100%;
+	border: 2px solid #ffffff;
+	-webkit-transition: all .5s ease-in;
+	overflow: hidden;
+}
+img:hover{
+	-webkit-transform: scale(.8);
+	box-shadow: 20px 20px 20px rgba(0,0,0,.5);
+	-webkit-transition: all .5s ease-in;
+}
+[class*="pl-"] figcaption{
+	opacity: 0;
+	position: absolute;
+	}
+
+.contato{
+	margin-top: 2%;
+}
