@@ -14,6 +14,7 @@
 		<link rel="stylesheet" type="text/css" href="_css/menu.css">
 		<link rel="icon" type="image/png" href="_imgs/logo-browser.png" />
 		<link rel="stylesheet" type="text/css" href="_css/home-page.css"/>
+		<link rel="stylesheet" type="text/css" href="_css/contato-page.css"/>
 		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css"/>
 	</head>
 	<body>
@@ -23,14 +24,14 @@
 		<!-- Menu lateral -->
 		<div class="menu">
 			<ul>
-				<li><a href="#">HOME</a></li>
+				<li><a href="index.html">HOME</a></li>
 				<img src="_imgs/line.png">
-				<li class="parq-nav"><a href="#">PAINEIS ARQUITETÔNICOS</a></li>
-				<li class="pdec-nav"><a href="#">PAINEIS DECORATIVOS</a></li>
-				<li class="espdec-nav"><a href="#">ESPELHOS DECORATIVOS</a></li>
-				<li class="pcnc-nav"><a href="#">PLACAS DE MADEIRA</a></li>
+				<li class="parq-nav"><a href="arquitetonicos.html">PAINEIS ARQUITETÔNICOS</a></li>
+				<li class="pdec-nav"><a href="decorativos.html">PAINEIS DECORATIVOS</a></li>
+				<li class="espdec-nav"><a href="espelhos.html">ESPELHOS DECORATIVOS</a></li>
+				<li class="pcnc-nav"><a href="placas.html">PLACAS DE MADEIRA</a></li>
 				<img src="_imgs/line.png">
-				<li><a href="#">CONTATO</a></li>
+				<li><a href="contato.html">CONTATO</a></li>
 				<label for="bt-menu">
 					<span>X</span>
 				</label>
@@ -45,13 +46,49 @@
 
 
 		<!-- container grid 12 -->
-		<div class="container">
-			<div class="row">
-			CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO, CONTEUDO.
+	<div class="col-md-12 titulo">
+		<h1>FALE CONOSCO</h1>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 formulario">
+				
+				<form method="post" id="fContato" action="mailto:contato@painel1d.com.br">
+			        <h2>Oferecendo pacotes ideais para você!</h2>
+			        <p>Contate-nos por nossa pagina de contato ou nossas redes sociais.</p>
+			        <ul>
+						<li><a href="#"><img src="_imgs/facebook.png"></a></li>
+						<li><a href="#"><img src="_imgs/google-plus.png"></a></li>
+						<li><a href="#"><img src="_imgs/instagram.png"></a></li>
+						<li><a href="#"><img src="_imgs/pinterest.png"></a></li>
+						<li><a href="#"><img src="_imgs/twitter.png"></a></li>
+					</ul>
+			        <fieldset id="contato">
+			        <legend>Nome</legend>
+			            <p><label for="cNome">Nome:</label><input type="text" name="tNome" id="cNome" size="30" maxlength="40" placeholder="Nome Completo"></p>
+			            <p><label for="cMail">E-mail:</label><input type="email" name="tMail" id="cMail" size="30" maxlength="40" placeholder="Insira seu e-mail" ></p>
+			        <legend>Endereço</legend>
+			            <p><label for="cRua">Logradouro:</label><input type="text" name="tRua" id="cRua" size="25" maxlength="80" placeholder="(Ex: Rua, Av, Travessa)"></p>
+			            <p><label for= "cNum">Número:</label><input type="number" name="tNum" id="cNum" min="0" max="9999"></p>
+			            <p><label for="cEst">Estado:</label>
+			                <select name="tEst" id="cEst">
+			                    <optgroup label="Estado">
+			                        <option value="SP" selected>SP</option>
+			                        <option value="MG">MG</option>
+			                        <option value="RJ">RJ</option>
+			                    </optgroup>
+			                </select> </p>
+			            <p><label for="cCid">Cidade:</label><input type="text" name="tCid" id="cCid" maxlength="40" size="29" placeholder="Sua Cidade"></p>
+			        <legend>Pedido</legend>
+			            <p><label for="cMsg">Mensagem:</label>
+			                <textarea name="tMsg" id="cMsg" cols="40" rows="5" placeholder="Insira o produto dejesado e suas especificações"></textarea></p>
+			        </fieldset>
+
+				        <input type="submit" value="Enviar"/>
+			    	</form>
 			</div>
 		</div>
-
-
+	</div>
 		<!-- Footer -->
 	<div class="col-md-12 contato">
 		<div class= "col-md-1 contato-nulo"></div>
