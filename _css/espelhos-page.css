@@ -14,7 +14,7 @@ body{
 .row{
 	height: 1500px;
 }
-.espelhos-coluna-1, .espelhos-coluna-2,.espelhos-coluna-3{
+.espelhos-coluna-1, .espelhos-coluna-2,.espelhos-coluna-3,.espelhos-coluna-4{
 	padding: 0; 
 	height: 46.5%;
 }
@@ -118,6 +118,42 @@ body{
 .esp-11:hover{
 	background-position: 50% 50%;
 }
+.esp-12{
+	background-image: url(../_imgs/_espdec/espelho-12.jpg);
+	background-size: cover;
+}
+.esp-12:hover{
+	background-position: 50% 50%;
+}
+.esp-13{
+	background-image: url(../_imgs/_espdec/espelho-13.jpg);
+	background-size: cover;
+}
+.esp-13:hover{
+	background-position: 50% 50%;
+}
+.esp-14{
+	background-image: url(../_imgs/_espdec/espelho-14.jpg);
+	background-size: cover;
+}
+.esp-14:hover{
+	background-position: 50% 50%;
+}
+.esp-15{
+	background-image: url(../_imgs/_espdec/espelho-15.jpg);
+	background-size: cover;
+}
+.esp-15:hover{
+	background-position: 50% 50%;
+}
+.esp-16{
+	background-image: url(../_imgs/_espdec/espelho-16.jpg);
+	background-size: cover;
+}
+.esp-16:hover{
+	background-position: 50% 50%;
+}
+
 [class*="esp-"] h2{
 	margin: 0;
 	opacity: 0;

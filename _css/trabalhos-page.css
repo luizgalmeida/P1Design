@@ -25,40 +25,40 @@ a:hover{
 	}
 .trabalho-1{
 	margin-top: 0;
-	background-image: url('../_imgs/slide-1-hover.jpg');
-	background-position: 50% 0%;
-	transition: .5s;
+	background-image: url('../_imgs//_parq/arquitetonicos-1.jpg');
+	background-size: cover;
+	transition: 1.5s;
 }
 .trabalho-1:hover{
-	background-position: 50% 100%;
-	transition: .5s;	
+	background-position: 50% 50%;
+	transition: 1.5s;	
 }
 .trabalho-2{
 	background-image: url('../_imgs/_pdec/decorativos-13.jpg');
 	background-position: 50% 50%;
-	transition: .5s;
+	transition: 1.5s;
 }
 .trabalho-2:hover{
 	background-position: 50% 100%;
-	transition: .5s;	
+	transition: 1.5s;	
 }
 
 .trabalho-3{
 	background-image: url('../_imgs/_espdec/espelho-capa.jpg');
 	background-position: 50% 50%;
-	transition: .5s;
+	transition: 1.5s;
 }
 .trabalho-3:hover{
 	background-position: 50% 100%;
-	transition: .5s;	
+	transition: 1.5s;	
 }
 
 .trabalho-4{
-	background-image: url('../_imgs/_pcnc/placa-4.jpg');
+	background-image: url('../_imgs/_pcnc/placa-5.jpg');
 	margin-bottom: 1%;
-	transition: .5s;	
+	transition: 1.5s;	
 }
 .trabalho-4:hover{
 	background-position: 50% 100%;
-	transition: .5s;	
+	transition: 1.5s;	
 }
