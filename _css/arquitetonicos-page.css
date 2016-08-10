@@ -178,3 +178,42 @@ body{
 .contato{
 	margin-top: 2%;
 }
+@media (min-width: 500px) and (max-width: 1000px) {
+	.row{
+		height: 1000px;
+	}
+	.arquitetonicos-titulo{
+		text-align: center;
+		margin-left: 5%;
+		height: 7%;
+	}
+	.arquitetonicos-titulo h1{
+		font-size: 3.5rem;
+	}
+	[class*="arqf-"] h2{
+		font-size: 2rem;
+	}
+	.contato{
+		margin-top: 3%;
+	}
+}
+@media (max-width: 500px){
+	.row{
+		height: 600px;
+	}
+	.arquitetonicos-titulo{
+		text-align: right;
+		height: 10%;
+	}
+	.arquitetonicos-titulo h1{
+		font-size: 2rem;
+	}
+	[class*="arqf-"] h2{
+		font-size: 1.5rem;
+		opacity: .7;
+	}
+	.contato{
+		margin-top: 1%;
+		padding-bottom: 3%
+	}
+}

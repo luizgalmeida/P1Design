@@ -211,3 +211,42 @@ body{
 .contato{
 	margin-top: 2%;
 }
+@media (min-width: 500px) and (max-width: 1000px) {
+	.row{
+		height: 1000px;
+	}
+	.decorativos-titulo{
+		text-align: center;
+		margin-left: 5%;
+		height: 7%;
+	}
+	.decorativos-titulo h1{
+		font-size: 3.5rem;
+	}
+	[class*="decf-"] h2{
+		font-size: 2rem;
+	}
+	.contato{
+		margin-top: 4%;
+	}
+}
+@media (max-width: 500px){
+	.row{
+		height: 600px;
+	}
+	.decorativos-titulo{
+		text-align: right;
+		height: 12%;
+	}
+	.decorativos-titulo h1{
+		font-size: 2rem;
+	}
+	[class*="decf-"] h2{
+		font-size: 1.5rem;
+		opacity: .7;
+	}
+	.contato{
+		margin-top: 14%;
+		padding-bottom: 3%
+	}
+}

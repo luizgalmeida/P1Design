@@ -60,3 +60,35 @@ fieldset{
 	margin-top: 5%;
 	margin-bottom: 5%;	
 }
+@media (min-width: 500px) and (max-width: 1000px) {
+	.titulo h1{
+		font-size: 4rem;
+	}
+	form{
+		margin-left: 0;
+		width: 100%;
+	}
+	form p{
+		font-size: 2rem;
+	}
+
+}
+@media (max-width: 500px){
+	.titulo h1{
+		font-size: 2.5rem;
+	}
+	form{
+		margin-left: 0;
+		width: 100%;
+	}
+	form h2{
+		font-size: 1.8rem;
+	}
+	form legend{
+		font-size: 1.8rem;
+	}
+	form p{
+		font-size: 1.3rem;
+	}
+
+}

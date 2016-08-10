@@ -5,6 +5,7 @@
 body{
 	font-size: 20px;
 	font-family: 'Raleway', sans-serif;
+	position: relative;
 }
 .carousel-principal{
 	padding: 0;
@@ -298,4 +299,67 @@ width: 100%;
 .contato ul li{
 	margin-right: 1%;
 	display: inline-block;
+}
+@media (min-width: 500px) and (max-width: 1000px) {
+	.caption-1 h1, .caption-2 h1, .caption-3 h1{
+		font-size: 5rem;
+		margin-top: 0%;
+	}
+	.trabalhos h2, .quem-somos h2{
+		font-size: 3.5rem;
+	}
+	.accordion{
+		height: 300px;
+	}
+	.sobre-texto p{
+		font-size: 1.5rem;
+	} 
+	.sobre-foto img{
+		height: 0px;
+		opacity: 0;
+	}
+	.contato-texto-1 h3, .contato-texto-2 h3, .contato-texto-3 h3{
+		font-size: 1.5rem;	
+
+	}
+	.contato-texto-1 p, .contato-texto-2 p, .contato-texto-3 p{
+		font-size: 1rem;
+	}
+	.contato-texto-3 img{
+		height: 25px;
+		width: 25px;
+	}
+}
+@media (max-width: 500px) {
+	.caption-1 h1, .caption-2 h1, .caption-3 h1{
+		font-size: 3.5rem;
+		margin-top: 0%;
+	}
+	.trabalhos h2, .quem-somos h2{
+		font-size: 2rem;
+	}
+	.accordion{
+		height: 150px;
+	}
+	.sobre-texto p{
+		font-size: 1rem;
+	}
+	.sobre-foto img{
+		height: 0px;
+		opacity: 0;
+	}
+	.contato-texto-1 h3, .contato-texto-2 h3, .contato-texto-3 h3{
+		font-size: 1rem;	
+
+	}
+	.contato-texto-1 p, .contato-texto-2 p, .contato-texto-3 p{
+		font-size: .5rem;
+	}
+	.contato-texto-3{
+		text-align: right;
+	}
+	.contato-texto-3 img{
+		height: 25px;
+		width: 25px;
+	}
 }
