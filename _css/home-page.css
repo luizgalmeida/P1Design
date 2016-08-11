@@ -38,7 +38,7 @@ width: 100%;
   	opacity: 1;
 	transition: 3s;
 	 -moz-transform: translateX(0%);
-	 -moz-transition:.001s;
+	 -moz-transition: all.001s;
 
 }
 .carousel-fade .carousel-control {
@@ -318,6 +318,9 @@ width: 100%;
 		height: 0px;
 		opacity: 0;
 	}
+	.accordion p{
+		font-size: 1.5rem;
+	}
 	.contato-texto-1 h3, .contato-texto-2 h3, .contato-texto-3 h3{
 		font-size: 1.5rem;	
 
@@ -341,6 +344,9 @@ width: 100%;
 	.accordion{
 		height: 150px;
 	}
+	.accordion p{
+		font-size: 1rem;
+	}
 	.sobre-texto p{
 		font-size: 1rem;
 	}
@@ -353,7 +359,7 @@ width: 100%;
 
 	}
 	.contato-texto-1 p, .contato-texto-2 p, .contato-texto-3 p{
-		font-size: .5rem;
+		font-size: .7rem;
 	}
 	.contato-texto-3{
 		text-align: right;

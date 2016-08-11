@@ -16,6 +16,10 @@ a:hover{
 	padding: 0;
 	margin-top: 1%;
 	height: 30%;
+	-webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 .trabalho-1 h1, .trabalho-2 h1, .trabalho-3 h1, .trabalho-4 h1{
 	font-size: 7rem;
@@ -27,40 +31,32 @@ a:hover{
 	margin-top: 0;
 	background-image: url('../_imgs//_parq/arquitetonicos-1.jpg');
 	background-size: cover;
-	transition: 1.5s;
 }
 .trabalho-1:hover{
-	background-position: 50% 50%;
-	transition: 1.5s;	
+	background-position: 50% 50%;	
 }
 .trabalho-2{
 	background-image: url('../_imgs/_pdec/decorativos-13.jpg');
-	background-position: 50% 50%;
-	transition: 1.5s;
+	background-position: cover;
 }
 .trabalho-2:hover{
-	background-position: 50% 50%;
-	transition: 1.5s;	
+	background-position: 50% 50%;	
 }
 
 .trabalho-3{
 	background-image: url('../_imgs/_espdec/espelho-capa.jpg');
-	background-position: 50% 50%;
-	transition: 1.5s;
+	background-position: cover;
 }
 .trabalho-3:hover{
-	background-position: 50% 50%;
-	transition: 1.5s;	
+	background-position: 50% 50%;	
 }
 
 .trabalho-4{
 	background-image: url('../_imgs/_pcnc/placa-5.jpg');
 	margin-bottom: 1%;
-	transition: 1.5s;	
 }
 .trabalho-4:hover{
-	background-position: 50% 50%;
-	transition: 1.5s;	
+	background-position: 50% 50%;	
 }
 @media (min-width: 550px) and (max-width: 900px) {
 	body{

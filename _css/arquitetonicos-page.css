@@ -26,13 +26,13 @@ body{
 	width: 100%;
 	height: 48.5%;
 	border: 2px solid #ffffff;
-	-webkit-transition: all .5s ease-in;
 	overflow: hidden;
 	position: relative;
+	-webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
 	
-}
-[class*=arqf-]:hover{
-	-webkit-transition: all .5s ease-in;
 }
 .arqf-00{
 	background-image: url(../_imgs/_parq/arquitetonicos-capa.jpg);
