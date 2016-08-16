@@ -29,16 +29,21 @@ width: 100%;
 }
 .carousel-fade .carousel-inner .active.left,
 .carousel-fade .carousel-inner .active.right {
-  left: 100%;
+    -ms-transform: translateX(100%); /* IE 9 */
+    -webkit-transform: translateX(0%); /* Safari */
+    -moz-transform: translateX(100%);
+    -o-transform: translateX(100%);
+
   opacity: 0;
   z-index: 1;
 }
 .carousel-fade .carousel-inner .next.left,
 .carousel-fade .carousel-inner .prev.right {
   	opacity: 1;
-	transition: 3s;
 	 -moz-transform: translateX(0%);
-	 -moz-transition: all.001s;
+	 -moz-transition: all;
+	 -ms-transform: translateX(0%);
+	 -ms-transition: all;
 
 }
 .carousel-fade .carousel-control {
